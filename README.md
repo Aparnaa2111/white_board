@@ -1,1 +1,2 @@
 # white_board
+The React Whiteboard App is an interactive drawing tool designed for collaborative and creative use. Built with React, it enables users to draw, sketch, and visualize ideas in real-time on a digital canvas. The app features essential drawing tools such as pencil, eraser, and color selection, providing a smooth user experience. It serves as a versatile tool for brainstorming sessions, teaching, or simply expressing creativity online.
