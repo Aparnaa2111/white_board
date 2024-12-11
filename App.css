@@ -1,0 +1,64 @@
+.Menu {
+    background-color: white; 
+    padding: 15px; 
+    border-radius: 8px; 
+    display: inline-block; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.Menu label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-size: 14px; 
+    color: #333; 
+}
+
+.Menu input[type="color"] {
+    width: 100%; 
+    height: 40px; 
+    border: none; 
+    margin-bottom: 15px; 
+    cursor: pointer; 
+}
+
+.Menu input[type="range"] {
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+
+.Menu button {
+    background-color: #28a745; 
+    color: #fff; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+}
+
+.Menu button:hover {
+    background-color: #218838; 
+}
+
+.Menu button:active {
+    background-color: #1e7e34; 
+}
+
+.Menu input[type="range"]::-webkit-slider-thumb {
+    background-color: #28a745;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Menu input[type="range"]::-moz-range-thumb {
+    background-color: #28a745; 
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
